@@ -32,7 +32,7 @@ const Home = async ({ searchParams }: RootPageProps) => {
     }
   });
 
-  console.log(data);
+
   return (
     <div className="h-full w-full p-4 space-y-2">
       <SearchInput />

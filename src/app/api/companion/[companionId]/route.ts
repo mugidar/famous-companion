@@ -18,7 +18,7 @@ export async function PATCH(
     if (!user || !user.id || !user.firstName) {
       return new NextResponse("Unauthorized", { status: 401 });
     }
-    console.log(body);
+  
 
     if (
       !src ||
