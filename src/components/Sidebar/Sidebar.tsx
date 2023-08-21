@@ -3,7 +3,7 @@ import React from "react";
 import { Home, Plus, Settings } from "lucide-react";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
-import { PageProps } from "../../../.next/types/app/layout";
+
 import { usePathname, useRouter } from "next/navigation";
 const routes = [
   {
