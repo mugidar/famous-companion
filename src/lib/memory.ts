@@ -93,7 +93,6 @@ export class MemoryManager {
     const recentChats = result.reverse().join("\n");
     return recentChats;
   }
-
   public async seedChatHistory(
     seedContent: String,
     delimiter: string = "\n",
