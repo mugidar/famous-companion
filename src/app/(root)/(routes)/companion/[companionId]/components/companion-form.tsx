@@ -112,7 +112,7 @@ const CompanionForm = ({ initData, categories }: CompanionFormProps) => {
   `;
 
   return (
-    <div className="h-full w-1/2 p-4 space-y-2 max-w-3xl mx-auto">
+    <div className="h-full w-full  px-10 max-w-4xl mx-auto">
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}

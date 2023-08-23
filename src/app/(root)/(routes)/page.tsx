@@ -17,8 +17,8 @@ const Home = async ({ searchParams }: RootPageProps) => {
     where: {
       categoryId: searchParams.categoryId,
       name: {
-        search: searchParams.name
-      }
+        search: searchParams.name,
+      },
     },
     orderBy: {
       createdAt: "desc"
@@ -26,12 +26,11 @@ const Home = async ({ searchParams }: RootPageProps) => {
     include: {
       _count: {
         select: {
-          messages: true
+          messages: true,
         }
       }
-    }
+    },
   });
-
 
   return (
     <div className="h-full w-full p-4 space-y-2">

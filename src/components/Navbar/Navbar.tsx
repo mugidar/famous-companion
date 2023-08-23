@@ -38,9 +38,7 @@ const Navbar = () => {
       </span>
       <span className="flex items-center gap-3 justify-self-end">
         <ModeToggle/>
-        <Button variant={"premium"} size="sm" className="gap-2">
-          Upgrade <Sparkles className="fill-white" />
-        </Button>
+   
 
         <UserButton afterSignOutUrl="/" />
         <SignOutButton />

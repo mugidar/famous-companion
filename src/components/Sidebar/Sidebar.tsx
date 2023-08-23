@@ -35,7 +35,7 @@ const Sidebar = () => {
   }
 
   return (
-    <div className="flex flex-col h-[calc(100vh-70px)] flex-0  border-r border-primary p-3 text-primary bg-secondary space-y-4 ">
+    <div className="flex flex-col min-h-[calc(100vh-70px)] flex-0  border-r border-primary p-3 text-primary bg-secondary space-y-4 ">
       {routes.map((route) => (
         <div
           className={cn(
